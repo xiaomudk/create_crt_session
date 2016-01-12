@@ -1,4 +1,6 @@
-# create_crt.ini使用说明
+# create_crt_ini使用说明
+
+根据excel表格secureCRT自动生成secureCRT的session
 
 
 ## 1. 配置文件为conf.ini
@@ -7,7 +9,7 @@
 #当前目录下的xls名字, 多个xls以逗号分开,不支持中文文件名
 xls_names = server_list.xls,junwang2.xls
 
-#session ini模板名字
+#session ini模板名字,随便从scureCRT session拉一个文件就可以了
 session_temp = crt_session_temp.ini
 
 #ip,servername,用户名和端口对应的列名
